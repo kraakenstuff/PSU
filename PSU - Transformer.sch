@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PSU - Transformer-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -218,17 +217,6 @@ Text GLabel 5600 2050 2    50   Input ~ 0
 -12_IN
 Wire Wire Line
 	5400 2050 5600 2050
-$Comp
-L Ja:Header_1x03 J2
-U 1 1 5BAAE5F3
-P 5200 1950
-F 0 "J2" H 5120 1633 50  0000 C CNN
-F 1 "Header_1x03" H 5120 1724 50  0000 C CNN
-F 2 "MojaBiblioteka:Klema x3" H 5200 1950 50  0001 C CNN
-F 3 "" H 5200 1950 50  0001 C CNN
-	1    5200 1950
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5400 1950 6000 1950
 Text GLabel 5600 2550 2    50   Input ~ 0
@@ -252,17 +240,6 @@ Text GLabel 5600 2750 2    50   Input ~ 0
 -12_IN
 Wire Wire Line
 	5400 2750 5600 2750
-$Comp
-L Ja:Header_1x03 J3
-U 1 1 5BAB0A71
-P 5200 2650
-F 0 "J3" H 5120 2333 50  0000 C CNN
-F 1 "Header_1x03" H 5120 2424 50  0000 C CNN
-F 2 "MojaBiblioteka:Klema x3" H 5200 2650 50  0001 C CNN
-F 3 "" H 5200 2650 50  0001 C CNN
-	1    5200 2650
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5400 2650 6000 2650
 Text GLabel 6800 1850 2    50   Input ~ 0
@@ -286,17 +263,6 @@ Text GLabel 6800 2050 2    50   Input ~ 0
 -12_IN
 Wire Wire Line
 	6600 2050 6800 2050
-$Comp
-L Ja:Header_1x03 J4
-U 1 1 5BAB0FBA
-P 6400 1950
-F 0 "J4" H 6320 1633 50  0000 C CNN
-F 1 "Header_1x03" H 6320 1724 50  0000 C CNN
-F 2 "MojaBiblioteka:Klema x3" H 6400 1950 50  0001 C CNN
-F 3 "" H 6400 1950 50  0001 C CNN
-	1    6400 1950
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6600 1950 7200 1950
 Text GLabel 6800 2550 2    50   Input ~ 0
@@ -320,17 +286,6 @@ Text GLabel 6800 2750 2    50   Input ~ 0
 -12_IN
 Wire Wire Line
 	6600 2750 6800 2750
-$Comp
-L Ja:Header_1x03 J5
-U 1 1 5BAB0FCC
-P 6400 2650
-F 0 "J5" H 6320 2333 50  0000 C CNN
-F 1 "Header_1x03" H 6320 2424 50  0000 C CNN
-F 2 "MojaBiblioteka:Klema x3" H 6400 2650 50  0001 C CNN
-F 3 "" H 6400 2650 50  0001 C CNN
-	1    6400 2650
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6600 2650 7200 2650
 $Comp
@@ -348,4 +303,48 @@ Wire Wire Line
 	1250 2600 1400 2600
 Wire Wire Line
 	1700 2600 1800 2600
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 5C030DE4
+P 5200 1950
+F 0 "J2" H 5306 2228 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 5306 2137 50  0000 C CNN
+F 2 "" H 5200 1950 50  0001 C CNN
+F 3 "~" H 5200 1950 50  0001 C CNN
+	1    5200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 5C030E7D
+P 5200 2650
+F 0 "J3" H 5306 2928 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 5306 2837 50  0000 C CNN
+F 2 "" H 5200 2650 50  0001 C CNN
+F 3 "~" H 5200 2650 50  0001 C CNN
+	1    5200 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5C030EDD
+P 6400 1950
+F 0 "J4" H 6506 2228 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6506 2137 50  0000 C CNN
+F 2 "" H 6400 1950 50  0001 C CNN
+F 3 "~" H 6400 1950 50  0001 C CNN
+	1    6400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 5C030F47
+P 6400 2650
+F 0 "J5" H 6506 2928 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6506 2837 50  0000 C CNN
+F 2 "" H 6400 2650 50  0001 C CNN
+F 3 "~" H 6400 2650 50  0001 C CNN
+	1    6400 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
