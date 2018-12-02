@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:PSU - Transformer-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 5B83DB01
 P 2200 2800
 F 0 "T1" H 2200 3378 50  0000 C CNN
 F 1 "+/-12V" H 2200 3287 50  0000 C CNN
-F 2 "MojaBiblioteka:TRAFO TORUSNI 220V 150VA 2x12V" H 2200 2800 50  0001 C CNN
+F 2 "KraakenStuff:Toroidal transformer 220V 150VA 2x12V" H 2200 2800 50  0001 C CNN
 F 3 "~" H 2200 2800 50  0001 C CNN
 	1    2200 2800
 	1    0    0    -1  
@@ -30,7 +31,7 @@ U 1 1 5B83DBD6
 P 3500 2300
 F 0 "D1" H 3450 2300 50  0000 L CNN
 F 1 "KBL06" H 3150 2500 50  0000 L CNN
-F 2 "MojaBiblioteka:Diode_Bridge_18.5x5.5" H 3500 2300 50  0001 C CNN
+F 2 "KraakenStuff:Diode_Bridge_18.5x5.5" H 3500 2300 50  0001 C CNN
 F 3 "~" H 3500 2300 50  0001 C CNN
 	1    3500 2300
 	1    0    0    -1  
@@ -41,7 +42,7 @@ U 1 1 5B83DC26
 P 3500 3300
 F 0 "D2" H 3550 3300 50  0000 R CNN
 F 1 "KBL06" H 3850 3100 50  0000 R CNN
-F 2 "MojaBiblioteka:Diode_Bridge_18.5x5.5" H 3500 3300 50  0001 C CNN
+F 2 "KraakenStuff:Diode_Bridge_18.5x5.5" H 3500 3300 50  0001 C CNN
 F 3 "~" H 3500 3300 50  0001 C CNN
 	1    3500 3300
 	-1   0    0    1   
@@ -52,24 +53,13 @@ U 1 1 5B83DF0D
 P 1550 3000
 F 0 "F2" V 1353 3000 50  0000 C CNN
 F 1 "1A" V 1444 3000 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" V 1480 3000 50  0001 C CNN
+F 2 "KraakenStuff:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" V 1480 3000 50  0001 C CNN
 F 3 "~" H 1550 3000 50  0001 C CNN
 	1    1550 3000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1700 3000 1800 3000
-$Comp
-L 4ms-headers:Conn_01x02 J1
-U 1 1 5B83E244
-P 950 2800
-F 0 "J1" H 870 2475 50  0000 C CNN
-F 1 "220V" H 870 2566 50  0000 C CNN
-F 2 "MojaBiblioteka:BLOK TERMINAL 2 KONTAKTA" H 950 2800 50  0001 C CNN
-F 3 "~" H 950 2800 50  0001 C CNN
-	1    950  2800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1150 2800 1250 2800
 Wire Wire Line
@@ -294,7 +284,7 @@ U 1 1 5BBB0ED3
 P 1550 2600
 F 0 "F1" V 1353 2600 50  0000 C CNN
 F 1 "1A" V 1444 2600 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" V 1480 2600 50  0001 C CNN
+F 2 "KraakenStuff:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" V 1480 2600 50  0001 C CNN
 F 3 "~" H 1550 2600 50  0001 C CNN
 	1    1550 2600
 	0    1    1    0   
@@ -309,7 +299,7 @@ U 1 1 5C030DE4
 P 5200 1950
 F 0 "J2" H 5306 2228 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 5306 2137 50  0000 C CNN
-F 2 "" H 5200 1950 50  0001 C CNN
+F 2 "KraakenStuff:Klema x3" H 5200 1950 50  0001 C CNN
 F 3 "~" H 5200 1950 50  0001 C CNN
 	1    5200 1950
 	1    0    0    -1  
@@ -320,7 +310,7 @@ U 1 1 5C030E7D
 P 5200 2650
 F 0 "J3" H 5306 2928 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 5306 2837 50  0000 C CNN
-F 2 "" H 5200 2650 50  0001 C CNN
+F 2 "KraakenStuff:Klema x3" H 5200 2650 50  0001 C CNN
 F 3 "~" H 5200 2650 50  0001 C CNN
 	1    5200 2650
 	1    0    0    -1  
@@ -331,7 +321,7 @@ U 1 1 5C030EDD
 P 6400 1950
 F 0 "J4" H 6506 2228 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 6506 2137 50  0000 C CNN
-F 2 "" H 6400 1950 50  0001 C CNN
+F 2 "KraakenStuff:Klema x3" H 6400 1950 50  0001 C CNN
 F 3 "~" H 6400 1950 50  0001 C CNN
 	1    6400 1950
 	1    0    0    -1  
@@ -342,9 +332,20 @@ U 1 1 5C030F47
 P 6400 2650
 F 0 "J5" H 6506 2928 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 6506 2837 50  0000 C CNN
-F 2 "" H 6400 2650 50  0001 C CNN
+F 2 "KraakenStuff:Klema x3" H 6400 2650 50  0001 C CNN
 F 3 "~" H 6400 2650 50  0001 C CNN
 	1    6400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5C033442
+P 950 2700
+F 0 "J1" H 1056 2878 50  0000 C CNN
+F 1 "220V" H 1056 2787 50  0000 C CNN
+F 2 "KraakenStuff:Terminal 2 contacts" H 950 2700 50  0001 C CNN
+F 3 "~" H 950 2700 50  0001 C CNN
+	1    950  2700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
